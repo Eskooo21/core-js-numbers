@@ -298,7 +298,7 @@ function getSumOfDigits(num) {
   return num
     .toString()
     .split('')
-    .reduce(function (previousValue, currentValue) {
+    .reduce(function asd(previousValue, currentValue) {
       return +previousValue + +currentValue;
     });
 }
